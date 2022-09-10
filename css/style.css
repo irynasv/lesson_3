@@ -1,0 +1,67 @@
+h1{
+	color: darkred;
+}
+h2{
+	color: darkmagenta;
+}
+.top p{
+	color: darkgreen;
+}
+.navigation{
+	color: darkblue;
+}
+#first-item{
+	color: red;
+}
+.top mark{
+	color: blue;
+}
+.part-one,.part-four{
+	color: darkorange;
+}
+.part-four span{
+	color: green;
+}
+/*  ? Чомусь не виходить з цим:
+.part-threee~p{
+	color: lightskyblue;
+}
+.part-threee+p{
+	color: lightskyblue;
+}
+ */
+.part-four.list{
+	color: darkcyan;
+}
+/* ?Не працює 
+(усі об'єкти з класом paragr всередині класу part-four.list)
+.part-four.list ,paragr{
+	color: black;
+}
+? p з класом paragr в part-three
+.part-threee ,paragr{
+	color: red;
+}
+? усі p всередині div з подвійним класом part-four.list
+p.part-four.list{
+	color: black;
+}*/
+*{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.part-four >p{
+	color: wheat;
+}
+
+#third-item{
+	color: black;
+}
+#forth-item mark{
+	color: green;
+}
+#paragr{
+	color: black;
+}
+.part-four.list ol{
+	color: palevioletred;
+}
